@@ -26,10 +26,10 @@ jobs:
         # run: flutter build web --release
 
       # (3)
-      - name: Make copy of artifacts
-        run: |
-          chmod u+x "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
-          bash "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
+      #- name: Make copy of artifacts
+      #  run: |
+      #    chmod u+x "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
+    #      bash "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
 
       # (4)
       - uses: stefanzweifel/git-auto-commit-action@v4
