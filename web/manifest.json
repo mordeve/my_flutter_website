@@ -1,11 +1,11 @@
 {
-    "name": "esmabatu",
-    "short_name": "esmabatu",
+    "name": "kahveinn",
+    "short_name": "kahveinn",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#hexcode",
-    "theme_color": "#hexcode",
-    "description": "Esma Batuhan Wedding.",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

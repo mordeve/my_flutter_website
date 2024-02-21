@@ -23,6 +23,8 @@ doc/api/
 *.js.deps
 *.js.map
 
+*.DS_Store
+
+
 .flutter-plugins
 .flutter-plugins-dependencies
-.DS_Store

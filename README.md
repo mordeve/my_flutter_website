@@ -1,7 +1,6 @@
-# ESMA BATUHAN WEDDING
+# kahveinn
 
-This is a wedding invitation app for Esma and Batuhan. It is written in Flutter and Dart.
-The people who are invited to the wedding can RSVP and see the details of the wedding.
+A new Flutter project.
 
 ## Getting Started
 
