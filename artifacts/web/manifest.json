@@ -1,11 +1,11 @@
 {
-    "name": "panel",
-    "short_name": "panel",
+    "name": "esmabatu",
+    "short_name": "esmabatu",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#hexcode",
     "theme_color": "#hexcode",
-    "description": "A new Flutter project.",
+    "description": "Esma Batuhan Wedding.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
