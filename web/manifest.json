@@ -1,11 +1,11 @@
 {
-    "name": "BatuhanKaraoglu",
-    "short_name": "batuhankaraoglu",
+    "name": "esmabatu",
+    "short_name": "esmabatu",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "My Space",
+    "background_color": "#hexcode",
+    "theme_color": "#hexcode",
+    "description": "Esma Batuhan Wedding.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
