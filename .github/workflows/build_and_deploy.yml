@@ -16,20 +16,20 @@ jobs:
         with:
           channel: "stable"
 
-      # - name: 🌍 Enable Web
-      #   run: flutter config --enable-web
+      - name: 🌍 Enable Web
+        run: flutter config --enable-web
 
-      # - name: 📦 Get packages
-      #   run: flutter pub get
+      - name: 📦 Get packages
+        run: flutter pub get
 
-      # - name: 🏭 Build Web Application
-        # run: flutter build web --release
+      - name: 🏭 Build Web Application
+        run: flutter build web --release
 
       # (3)
-      #- name: Make copy of artifacts
-      #  run: |
-      #    chmod u+x "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
-    #      bash "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
+      - name: Make copy of artifacts
+        run: |
+          chmod u+x "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
+          bash "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
 
       # (4)
       - uses: stefanzweifel/git-auto-commit-action@v4
