@@ -22,8 +22,8 @@ jobs:
       - name: 📦 Get packages
         run: flutter pub get
 
-      - name: 🏭 Build Web Application
-        run: flutter build web --release
+      # - name: 🏭 Build Web Application
+      #   run: flutter build web --release
 
       # (3)
       - name: Make copy of artifacts
