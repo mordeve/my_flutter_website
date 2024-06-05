@@ -9,6 +9,9 @@ class ContactUtils {
 
 List<ContactUtils> contactUtils = [
   ContactUtils(
+      url: email,
+      icon: "https://img.icons8.com/ios-glyphs/60/000000/email.png"),
+  ContactUtils(
       url: gitHub,
       icon: "https://img.icons8.com/ios-glyphs/60/000000/github.png"),
   ContactUtils(

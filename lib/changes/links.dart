@@ -1,10 +1,12 @@
 // CV
-const String resume =
-    'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
+const String resume = '';
+
+// email Link
+const String email = 'mailto:b.karaoglu_1907@hotmail.com';
 
 // Github Link
 const String gitHub = 'https://github.com/mordeve';
-// Github Link
+// Twitter Link
 const String twitter = 'https://twitter.com/bthnkroglu';
-// Github Link
+// LinkedIn Link
 const String linkedin = 'https://linkedin.com/in/batuhan-karaoğlu-1393b6173';

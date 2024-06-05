@@ -26,34 +26,35 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
         children: [
           const CustomSectionHeading(text: "\nProjects"),
           Space.y(1.w)!,
-          CustomSectionSubHeading(text: protfolioSubHeading),
+          const CustomSectionSubHeading(text: protfolioSubHeading),
           Space.y(2.w)!,
-          Wrap(
-            alignment: WrapAlignment.start,
-            crossAxisAlignment: WrapCrossAlignment.start,
-            runSpacing: 3.w,
-            children: projectUtils
-                .asMap()
-                .entries
-                .map(
-                  (e) => ProjectCard(project: e.value),
-                )
-                .toList(),
-          ),
-          Space.y(3.w)!,
-          OutlinedButton(
-            onPressed: () => openURL(gitHub),
-            child: const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Text(
-                'See More',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-          )
+          const Text("Coming Soon..."),
+          // Wrap(
+          //   alignment: WrapAlignment.start,
+          //   crossAxisAlignment: WrapCrossAlignment.start,
+          //   runSpacing: 3.w,
+          //   children: projectUtils
+          //       .asMap()
+          //       .entries
+          //       .map(
+          //         (e) => ProjectCard(project: e.value),
+          //       )
+          //       .toList(),
+          // ),
+          // Space.y(3.w)!,
+          // OutlinedButton(
+          //   onPressed: () => openURL(gitHub),
+          //   child: const Padding(
+          //     padding: EdgeInsets.all(8.0),
+          //     child: Text(
+          //       'See More',
+          //       style: TextStyle(
+          //         fontSize: 20,
+          //         fontWeight: FontWeight.bold,
+          //       ),
+          //     ),
+          //   ),
+          // )
         ],
       ),
     );

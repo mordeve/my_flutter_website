@@ -21,12 +21,11 @@ class ContactDesktop extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [
-          const CustomSectionHeading(text: "\nGet in Touch"),
+          const CustomSectionHeading(text: "\nContact"),
           Space.y(1.w)!,
           const CustomSectionSubHeading(
-            text:
-                "If you want to avail my services you can contact me at the links below.",
-          ),
+              text:
+                  "To get in touch with me, you can reach out to me on the following platforms."),
           Space.y(2.w)!,
           Container(
             padding: EdgeInsets.all(size.width * 0.05).copyWith(bottom: 10),
@@ -55,11 +54,17 @@ class ContactDesktop extends StatelessWidget {
                         ),
 
                         Space.y(1.w)!,
-                        Text(
-                          contactSubHeadding,
-                          style: const TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w100,
+                        SizedBox(
+                          // fix overflow of text
+                          width: 60.w,
+                          child: Text(
+                            contactSubHeadding,
+                            softWrap: true,
+                            textAlign: TextAlign.justify,
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w100,
+                            ),
                           ),
                         ),
                         Space.y(2.w)!,
